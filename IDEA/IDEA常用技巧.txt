@@ -1,0 +1,91 @@
+/// 常用设置 =========================================
+
+【01】 设置主题 ：
+	Appearance& Behavior / Theme
+【02】 编辑区字体大小 ：
+	Editor/General/Change font size with Ctrl+Mouse Wheel
+【03】 鼠标悬浮有提示：
+	Editor/Editor Tooltips
+【04】 自动导包和去除不用的包：
+	手动导包 Alt+Enter，
+	Editor/General/Auto import/Add unambiguous import on the fly
+	Editor/General/Auto import/Optimize imports on the fly
+【05】 合并导包为*：
+	Editor/Code Style/Java/Class count to use import with '*'
+	Editor/Code Style/Java/Names count to use static import with '*'
+【06】 显示行号，方法之间显示分割线
+	Editor/General/Appearance/Show line numbers
+	Editor/General/Appearance/Show method separators
+【07】 忽略大小写进行提示：
+	Editor/General/Code Completion/Match case
+【08】 多个类，在编辑窗口上不隐藏：
+	Editor/General/Editor Tabs/Tab limit
+	Editor/General/Editor Tabs/Appearance/Multiple rows
+【09】 设置默认的字体，大小，颜色（包括控制台，编辑区）：
+	Editor/Font/Font ,Size,Line height
+【10】 修改代码中注释的颜色，字体，大小：
+	Editor/Color Scheme/Language Defaults/Comments/Block comment,Doc comment,Line comment
+【11】 修改类头文档注释信息（新建类会自动加上注释）：
+	Editor/File and Code Templates/File Header
+	/**
+	* @Auther: xhumdrum
+	* @Date: ${DATE}
+	* @Description: ${PACKAGE_NAME}
+	* @Version: 1.0.1
+	*/
+【12】 设置文件编码格式为 UTF-8：
+	Editor/File Encodings/ 全部修改为 UTF-8
+	编辑区右下角可以调节文件编码格式
+【13】 自动编译：
+	Build,Execution,Deployment/Compiler/Build project automatically
+	Build,Execution,Deployment/Compiler/Compile independent modules in parallel
+【14】 文件并列显示：
+	右键菜单，选 Split Right/Split Down
+【15】 导入jar包：
+	File/Project Structure/Project Setting/Libaries/+
+【16】 生成序列化版本号：
+	Editor/Inspections 搜素 serial，选 Serializable class without 'serialVersionUID'
+
+
+
+/// 常用快捷键 ========================================
+
+【01】 调出 new 菜单 ：（对于没有 Insert 的键盘，可以定义 Alt+P ）    
+【02】 创建主方法:：   psvm  或者  main
+【03】 打印输入语句：   sout (对一个变量进行打印输出，可以简写为  变量.sout）
+【04】 向下复制一行/代码块：   Ctrl+D
+【05】 删除当前行：   Ctrl+Y
+【06】 取消操作：   Ctrl+Z      重做（redo）：  Ctrl+Shift+Z
+【07】 代码行/块向上/下移动 ：     Ctrl+Shift+上/下箭头
+【08】 调出生成代码的菜单（如·构造函数，geter,setter...）：   Alt+Insert （对于没有 Insert 的键盘，可以定义    Alt+I ）
+【09】 百能快捷键 (自动生成变量，导包...）：    Alt+Enter
+【10】 搜素类 ：    Ctrl+N
+【11】 单行注释：   Ctrl+/         多行注释：  Ctrl+Shift+/
+【12】 重命名：    Shift+F6
+【13】for循环，简写成 fori，即可自动生成循环结构
+【14】 调出代码包围块 （如 try-catch/if/while）：    Ctrl+Alt+T
+【15】 代码缩进：   Tab           向前缩进 ：    Shift+Tab
+【16】 代码自动补全提示）：   Alt+/   （可以在Settings/Keymap 中搜索 basic 来设置
+【17】 代码层级调用 Ctrl+鼠标点击进去查看代码，前进/后退 ：     Ctrl+Alt+左/右箭头
+【18】 查看其他辅助窗口 ：    Alt+窗口编号
+
+
+/// 代码模板 ========================================
+
+【01】 main 方法：main   psvm
+【02】 输出语句：sout    .sout 一些变形：soutp 打印方法的形参；soum 打印方法的名称；soutv 打印变量
+【03】 循环语句： 普通循环： fori 正向；.fori 正向；forr 逆向         增强循环：iter 或 .for
+【04】 条件判断：ifnull 或 .null 判断是否为 null (if null)      inn 或 .nn 判断不为 null (if not nll)
+【05】 属性修饰符：prsf =  private static final ; psf = public static final
+
+
+
+
+
+
+
+
+
+
+
+

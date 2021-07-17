@@ -1,0 +1,107 @@
+
+
+1. 基本配置
+
+	配置个人用户名称和电子邮件
+	$ git config --global user.name "xhumdrum"
+	$ git config --global user.email xiang_xia@126.com
+
+	配置差异化分析工具 
+	$ git config --global merge.tool vimdiff
+
+	查看配置
+	$ git config --list
+
+2.创建本地仓库
+
+	在本地先建立一个空的文件夹，比如：GitReposit
+
+	用命令创建本地仓库：
+	进到这个文件夹，按鼠标右键，选“Git Bash Here”
+	$ git init
+
+	用 tortoisGit 创建本地仓库 
+	进到这个文件夹，按鼠标右键，选“Git 在这里创建版本库...”
+	不要勾选“制作纯版本库”，然后按“确定”
+
+3.解决本地图标不显示问题
+	打开注册表，进到
+	HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Explore
+	新建 Max Cached Icons (最大缓存图标) 的值 为2000
+
+4.操作步骤
+	
+	用命令：
+	$ git add test.txt       将 test.txt 提交到缓存区
+	$ git commit test.txt     将 test.txt 提交到本地仓库
+		vim操作：先输入说明，然后按 Escape，输入 :wq 退出
+	$ git commit test.txt -m firstCommit     加参数-m,后面加注释" firstCommit"直接提交
+
+	用 tortoisGit
+	按右键，选 TortoiseGit/添加
+	按右键，选 Git提交
+
+
+5.常用命令 
+	
+	查看仓库当前状态
+	$ git status
+	$ git status -s
+
+	显示日志
+	$ git 
+	$ git test1.txt
+	$ git log --oneline test1.txt     // 简单显示
+	$ git log --oneline --reverse test1.txt  //简单显示，反序排列
+	
+	比较差异
+	$ git diff test1.txt
+
+	还原修改
+	$ git restore test1.txt
+
+	删除
+	$ git rm test1.txt
+
+	重命名/移动
+	$ git mv test1.txt test2.txt
+
+
+6.生成密钥
+	1.用命令生成
+	$ ssh-keygen -t rsa
+	默认生成的文件在 
+		c:/Users/xiaxiang/.ssh/id_rsa  (私钥)
+		c:/Users/xiaxiang/.ssh/id_rsa.pub  (公钥)
+	2.在 github.com 上配置密钥
+		Account settings/SSH and GPG keys
+
+7.推送到 github.com 
+
+	1.在 Git Bash Here 中用命令推送到 github.com 
+		$ git remote add origin git@github.com:xhumdrum/gittest.git 
+                  	//origin 是 git@github.com:xhumdrum/gittest.git 的别名 
+		$ git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
