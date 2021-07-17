@@ -82,6 +82,10 @@
 		$ git remote add origin git@github.com:xhumdrum/gittest.git 
                   	//origin 是 git@github.com:xhumdrum/gittest.git 的别名 
 		$ git push -u origin master
+	   删除 remote origin
+		$ git remote remove origin
+
+
 
 
 
