@@ -85,6 +85,15 @@
 	   删除 remote origin
 		$ git remote remove origin
 
+	2.用 TortoiseGit 推送 
+		a.TortoiseGit/bin目录下启动puttugen.exe
+		b.按“Load”读取c:/Users/xiaxiang/.ssh/id_rsa
+		c.按“Save private key”,保存为 c:/Users/xiaxiang/.ssh/id_rsa.ppk
+		d.TortoiseGit/设置/Git/远端/ putty密钥，选文件   c:/Users/xiaxiang/.ssh/id_rsa.ppk
+		e.TortoiseGit/设置/差异查看器/合并工具，选外部的 C:\Program Files\Git\usr\bin\ssh.exe
+		f.然后右键，选 “Git同步...”
+
+
 
 
 
