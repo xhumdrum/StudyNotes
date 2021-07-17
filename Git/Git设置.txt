@@ -71,10 +71,11 @@
 	1.用命令生成
 	$ ssh-keygen -t rsa
 	默认生成的文件在 
-		c:/Users/xiaxiang/.ssh/id_rsa  (私钥)
-		c:/Users/xiaxiang/.ssh/id_rsa.pub  (公钥)
+		c:/Users/xiaxiang/.ssh/id_rsa  (私钥，设置到本地Git)
+		c:/Users/xiaxiang/.ssh/id_rsa.pub  (公钥，设置到 Github)
 	2.在 github.com 上配置密钥
 		Account settings/SSH and GPG keys
+		打开c:/Users/xiaxiang/.ssh/id_rsa.pub，复制再贴上
 
 7.推送到 github.com 
 
