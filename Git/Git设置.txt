@@ -94,6 +94,16 @@
 		e.TortoiseGit/设置/差异查看器/合并工具，选外部的 C:\Program Files\Git\usr\bin\ssh.exe
 		f.然后右键，选 “Git同步...”
 
+8.IDEA中使用 Git
+	例如： 当前项目是 C:\StudyJava\StudyIDEA
+	1.IDEA/Settings/Version Control/Git/Path to Git executable:
+		选择：git@github.com:xhumdrum/StudyJava.git
+	2.IDEA/VCS/Create Git repository
+		选择 C:\StudyJava\
+	3.进到  C:\StudyJava\ ，右键选 Git Bash Here
+		$ git remote add studyjava   git@github.com:xhumdrum/studyjava.git
+	4.然后在 IEDA 中可以 直接 Commit 和 push 了。
+
 
 
 
